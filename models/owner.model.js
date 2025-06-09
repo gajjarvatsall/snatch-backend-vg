@@ -35,7 +35,7 @@ const ownerSchema = new Schema(
     // Contact - number
     contact: {
       type: String,
-      required: true,
+      required: false,
       validate: {
         validator: function (v) {
           return /^\d{10}$/.test(v);

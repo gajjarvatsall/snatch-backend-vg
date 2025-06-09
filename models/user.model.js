@@ -34,11 +34,6 @@ const userScheme = new Schema(
       type: Array,
       default: [],
     },
-    // isadmin - boolean
-    isadmin: {
-      type: Boolean,
-      default: false,
-    },
     // Orders - array
     orders: {
       type: Array,

@@ -1,0 +1,9 @@
+/* ...existing code... */
+@font-face {
+  font-family: "helvetica_now_display";
+  src: url("/fonts/helvetica_now_display.woff2") format("woff2"),
+    url("/fonts/helvetica_now_display.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+/* ...existing code... */

@@ -1,12 +1,12 @@
 import express from "express";
+import { isLoggedIn } from "../middlewares/isLoggedIn.js";
 const router = express.Router();
 
 router.get("/", (req, res) => {
-  res.send("Product List");
+  res.render("index", { title: "Home Page" });
 });
 
-router.get("/", (req, res) => {
-  res.send("Product List");
-});
+
+
 
 export default router;
